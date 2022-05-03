@@ -49,7 +49,7 @@ h1 {
 }
 .down {
   width: 100%;
-  height: 100%;
+  height: 900px;
   background-color: #1f2937;
 
 }
@@ -105,24 +105,20 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
-@media screen and (min-width: 601px) {
-  div.example {
-    font-size: 80px;
-  }
-}
+
 
 @media screen and (max-width: 900px) {
   h4 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   h6{
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
   h1{
     font-size: 6vw;
 
   }
   #input{
-    font-size:12vw ;
+    font-size:15vw ;
   }
 }
