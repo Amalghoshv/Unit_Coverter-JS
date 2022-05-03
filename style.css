@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.upper {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    180deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(231deg 100% 22%) 14%,
+    hsl(225deg 100% 24%) 21%,
+    hsl(221deg 100% 26%) 26%,
+    hsl(218deg 100% 27%) 30%,
+    hsl(215deg 100% 29%) 35%,
+    hsl(213deg 100% 30%) 39%,
+    hsl(210deg 100% 30%) 43%,
+    hsl(207deg 100% 31%) 46%,
+    hsl(205deg 100% 31%) 50%,
+    hsl(202deg 100% 32%) 54%,
+    hsl(199deg 100% 32%) 57%,
+    hsl(196deg 100% 32%) 61%,
+    hsl(193deg 100% 32%) 65%,
+    hsl(190deg 100% 32%) 69%,
+    hsl(187deg 100% 31%) 74%,
+    hsl(184deg 100% 31%) 79%,
+    hsl(181deg 100% 31%) 86%,
+    hsl(178deg 69% 38%) 100%
+  );
+}
+h1 {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 2%;
+  top: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4vw;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+.down {
+  width: 100%;
+  height: 100%;
+  background-color: #1f2937;
+
+}
+
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 20px;
+  text-align: center;
+  padding: 25px;
+  padding-top: 5%;
+
+  color: #ffffff;
+}
+h6 {
+  color:cyan;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  padding-bottom: 20px;
+  line-height: 10px;
+  text-align: center;
+  
+}
+#input{
+  margin-top: 30px;
+  background-color:transparent;
+  border: none;
+  position: absolute;
+  width: 211px;
+  height: 100px;
+  left: 45%;
+  top: 6rem;
+  caret-color: transparent;
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 9vw;
+  line-height: 30px;
+
+  color: #ffffff;
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h4 {
+    font-size: 4vw;
+  }
+  h6{
+    font-size: 3.5vw;
+  }
+  h1{
+    font-size: 6vw;
+
+  }
+  #input{
+    font-size:12vw ;
+  }
+}
